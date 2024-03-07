@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className='absolute right-6  text-3xl text-tgreen md:hidden 'onClick={()=>setOpen(!open)}>
          {open?<FiX/>:<FiAlignJustify/>}
       </div>
-      <div className= {`md:flex gap-7  md:mt-0 absolute md:static md:bg-tblue md:w-auto md:z-auto z-[10] left-0 w-full h-[500px] md:h-0 md:pl-0 pl-16 transition-all ease-in-out duration-500 ${open?'top-16':'top-[-500px]'}`}>
+      <div className= {`md:flex gap-7  md:mt-0 absolute md:static md:bg-tblue md:w-auto md:z-auto bg-white z-[10] left-0 w-full h-[500px] md:h-0 md:pl-0 pl-16 transition-all ease-in-out duration-500 ${open?'top-16':'top-[-500px]'}`}>
   
               <div className="hover:underline cursor-pointer m-20 md:mt-1 md:ml-0 md:mr-0 text-[16px] font-bold text-textblack" >CryptoTaxes</div>
               <div className="hover:underline cursor-pointer m-20 md:mt-1 md:ml-0 md:mr-0 text-[16px] font-bold text-textblack">Free Tools</div>
